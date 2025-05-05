@@ -31,9 +31,10 @@ for pod in product_pods:
 
     book_data = [{'Title': titles, 'Price': price}]
     for books in book_data:
+        # Passing the data from book_data list to books
         bookss.append(books)
-        # Creating a DataFrame with Pandas
 
+# Creating a DataFrame with Pandas
 df = pd.DataFrame(bookss)
 
 # Specify the CSV file name
