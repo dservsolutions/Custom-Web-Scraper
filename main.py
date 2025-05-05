@@ -16,8 +16,8 @@ product_pods = soup.find_all('article', class_='product_pod')
 
 # Empty List
 book_data = []
-
 bookss = []
+
 #Book Titles
 for pod in product_pods:
     #Withing each product_pod, find the h3 tag
